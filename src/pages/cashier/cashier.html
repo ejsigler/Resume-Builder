@@ -1,0 +1,29 @@
+<!--
+  Generated template for the CashierPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Cashier</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <script src="https://unpkg.com/ionicons@4.4.8/dist/ionicons.js"></script>
+  <p>Choose Your Rainy Day Items to Buy</p>
+  <label>Beer: $2.00</label><br>
+<ion-icon name='beer'></ion-icon><input id='beer' type='checkbox' /><br>
+<label>Wine: $3.00</label><br>
+<ion-icon name='wine'></ion-icon><input id='wine' type='checkbox'><br>
+<label>Umbrella: $7.00</label><br>
+<ion-icon name='umbrella'></ion-icon><input id='umbrella' type='checkbox'><br>
+<br><label>Enter Cash Amount:</label>
+<input type='number' id='cashInput' placeholder="$"><button type='submit' (click) = 'cashRegister();'>Buy Now</button><br>
+<label>Change Due:</label>
+<p id='change'></p>
+</ion-content>
